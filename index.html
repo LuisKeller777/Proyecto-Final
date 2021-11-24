@@ -5,37 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alfonsina Bel</title>
+    <!--Importacion de tipografía NOTO SANS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <h1>ALFONSINA BEL</h1>
+        <nav class="header_nav">
+            <ul>
+                <li><a href="#" class="header_nav_a">Inicio</a></li>
+                <li><a href="#Servicios" class="header_nav_a">Servicios</a></li>
+                <li><a href="#Clientes" class="header_nav_a">Clientes</a></li>
+                <li><a href="#Planes" class="header_nav_a">Planes</a></li>
+                <li><a href="#Sobre_mi" class="header_nav_a">Sobre mí</a></li>
+                <li><a href="#Contacto" class="header_nav_a">Contacto</a></li>
+            </ul>
+        </nav>
+
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#Servicios">Servicios</a></li>
-            <li><a href="#Clientes">Clientes</a></li>
-            <li><a href="#Planes">Planes</a></li>
-            <li><a href="#Sobre_mi">Sobre mí</a></li>
-            <li><a href="#Contacto">Contacto</a></li>
-        </ul>
-    </nav>
+
     <section id="Servicios">
         <h2>Servicios</h2>
-        <div>
+        <div class="div-izquierda">
             <h3>Alta/Baja AFIP - Monotributo & Responsable Inscripto</h3>
             <img src="img/AFIP.png" alt="logo_AFIP">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quaerat repudiandae, delectus nobis et est, esse eos deleniti dolorum, nam asperiores officia. Incidunt distinctio commodi atque impedit repudiandae quis velit.</p>
         </div>
         <br>
-        <div>
+        <div class="div-derecha">
             <h3>Alta/Baja Rentas Neuquén</h3>
             <img src="img/rentas_neuquen.png" alt="logo_rentas_neuquen">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quaerat repudiandae, delectus nobis et est, esse eos deleniti dolorum, nam asperiores officia. Incidunt distinctio commodi atque impedit repudiandae quis velit.</p>
         </div>
         <br>
-        <div>
+        <div class="div-izquierda">
             <h3>Trámites ANSES</h3>
             <img src="img/anses.jpg" alt="logo_anses">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quaerat repudiandae, delectus nobis et est, esse eos deleniti dolorum, nam asperiores officia. Incidunt distinctio commodi atque impedit repudiandae quis velit.</p>
@@ -89,7 +96,7 @@
             </div>
         </div>
         <div>
-            <h3>Completá tus datos y te contactaremos a la brevedad</h3>
+            <h2>Completá tus datos y te contactaremos a la brevedad</h2>
             <form action="" method="get">
                 <fieldset>
                     <legend>Formulario de Contacto</legend>

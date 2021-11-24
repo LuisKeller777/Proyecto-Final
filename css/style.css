@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("/img/taza-cafe-fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10em;
+}
+
+.header_nav {
+    text-align: center;
+    margin: 15px;
+    padding: 30px;
+}
+
+.header_nav_a {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 3px solid lightblue;
+    display: inline-block;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    color: blanchedalmond;
+    font-size: 5em;
+    text-align: center;
+}
+
+ul {
+    margin-bottom: 30px;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    width: 20%;
+    position: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    font-weight: bolder;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+div img {
+    width: 20%;
+}
+
+div p {
+    width: 30%;
+}
+
+.div-izquierda {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.div-derecha {
+    text-align: right;
+    margin-right: 10%;
+}
