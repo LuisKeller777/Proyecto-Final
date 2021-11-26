@@ -24,13 +24,15 @@ section {
 }
 
 .header_nav_a {
-    color: aliceblue;
-    font-size: 20px;
+    background-color: rgb(120, 245, 245);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
     text-decoration: none;
     padding: 10px;
-    border: 3px solid lightblue;
+    border: 3px solid blanchedalmond;
     display: inline-block;
-    max-width: fit-content;
+    margin: 10px;
+    width: 100px;
 }
 
 h1 {
@@ -44,8 +46,8 @@ h1 {
 h2 {
     text-align: center;
     font-size: 40px;
-    font-family: 'Noto Sans', sans-serif;
-    margin: 5px;
+    font-family: 'Noto Sans', serif;
+    margin: 20px;
 }
 
 h3 {
@@ -99,13 +101,26 @@ div p {
 #Planes {
     width: 100%;
     text-align: center;
-    background-color: burlywood;
+    background-color: rgb(194, 255, 224);
 }
 
-#Planes div {
-    display: inline-block;
-    max-width: fit-content;
-    padding: 30px;
+#div_planes {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.div_precio {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#div_planes div p {
+    width: 100%;
+    font-size: 50px;
 }
 
 #Sobre_mi {
@@ -115,6 +130,7 @@ div p {
 
 #Contacto {
     text-align: center;
+    padding-bottom: 0px;
 }
 
 .div_padre {
