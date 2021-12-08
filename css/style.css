@@ -4,7 +4,7 @@
     font-size: 25px;
 }
 
-header {
+#Intro {
     background-image: url("/img/taza-cafe-fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,8 +19,12 @@ section {
 
 .header_nav {
     text-align: center;
-    margin: 15px;
-    padding: 10px;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    font-weight: bolder;
 }
 
 .header_nav_a {
@@ -71,10 +75,6 @@ li {
 
 a {
     text-decoration: none;
-}
-
-nav ul li a {
-    font-weight: bolder;
 }
 
 div img {
