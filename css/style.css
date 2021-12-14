@@ -89,10 +89,20 @@ div p {
     text-align: center;
 }
 
-#servicios {
+#Servicios {
     text-align: center;
-    display: flex;
-    flex-direction: column;
+}
+
+.servicios {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 1px;
+}
+
+.servicios_derecha {
+    grid-column: 2 / 2;
 }
 
 #servicios div {
