@@ -39,6 +39,11 @@ section {
     width: 100px;
 }
 
+.header_nav_a:hover {
+    background-color: blanchedalmond;
+    color: slategray;
+}
+
 h1 {
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
@@ -94,15 +99,7 @@ div p {
 }
 
 .servicios {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 1px;
-}
-
-.servicios_derecha {
-    grid-column: 2 / 2;
+    display: flexbox;
 }
 
 #servicios div {
