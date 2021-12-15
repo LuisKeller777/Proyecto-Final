@@ -142,6 +142,7 @@ div p {
 #Sobre_mi {
     text-align: center;
     background-color: azure;
+    background-image: linear-gradient(to bottom, azure, blanchedalmond);
 }
 
 #Contacto {
@@ -237,6 +238,10 @@ input {
 
 .btn {
     width: 30%;
+}
+
+.btn:hover {
+    font-weight: bolder;
 }
 
 div form {
