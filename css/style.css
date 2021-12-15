@@ -42,6 +42,7 @@ section {
 .header_nav_a:hover {
     background-color: blanchedalmond;
     color: slategray;
+    background-image: linear-gradient(to bottom, white, rgb(248, 207, 140));
 }
 
 h1 {
@@ -108,7 +109,7 @@ div p {
 
 #clientes {
     text-align: center;
-    background-color: azure;
+    background-image: linear-gradient(to bottom, azure, aquamarine);
 }
 
 #Planes {
@@ -245,8 +246,8 @@ div form {
 
 footer {
     text-align: center;
-    margin-top: 20px;
-    background-color: slategray;
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom, azure, rgb(60, 62, 65));
 }
 
 .div-iconos {
