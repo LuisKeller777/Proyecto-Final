@@ -149,26 +149,30 @@
         <div id="form">
             <h3>Completá tus datos y te contactaremos a la brevedad</h3>
             <form action="" method="get">
-                <fieldset>
+                <div class="form-group">
                     <legend>Formulario de Contacto</legend>
-                    <br>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre">
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" id="apellido" name="apellido">
-                    <label for="telefono">Número de Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono">
-                    <label for="correo">Correo:</label>
-                    <input type="email" id="correo" name="correo">
-                    <label for="comentario">Cuentanos sobre lo que estás buscando:</label>
-                    <input type="text" id="comentario" name="comentario">
-                    <div>
-                        <input type="submit" id="btn_enviar" class="btn" value="Enviar">
-                        <input type="reset" id="btn_reset" class="btn" value="Resetear">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
                     </div>
-
-                </fieldset>
-
+                    <div class="form-group">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo:</label>
+                        <input type="email" id="correo" name="correo">
+                    </div>
+                    <div class="form-group">
+                        <label for="comentario">Cuentanos sobre lo que estás buscando:</label>
+                        <input type="text" id="comentario" name="comentario">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
             </form>
         </div>
     </section>
