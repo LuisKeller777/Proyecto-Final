@@ -28,15 +28,9 @@ section {
 }
 
 .header_nav_a {
-    background-color: slategray;
     color: blanchedalmond;
     font-size: 25px;
     text-decoration: none;
-    padding: 10px;
-    border: 2px solid blanchedalmond;
-    display: inline-block;
-    margin: 10px;
-    width: 100px;
 }
 
 .header_nav_a:hover {
@@ -45,7 +39,7 @@ section {
     background-image: linear-gradient(to bottom, white, rgb(248, 207, 140));
 }
 
-h1 {
+#h1_title {
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     color: blanchedalmond;
