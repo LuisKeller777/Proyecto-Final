@@ -60,6 +60,10 @@ h3 {
     font-family: 'Noto Sans', sans-serif;
 }
 
+h6 {
+    text-align: center;
+}
+
 ul {
     margin-bottom: 30px;
     list-style: none;
@@ -99,11 +103,6 @@ div p {
 
 #servicios div {
     margin-bottom: 40px;
-}
-
-#clientes {
-    text-align: center;
-    background-image: linear-gradient(to bottom, azure, aquamarine);
 }
 
 #Planes {
@@ -243,3 +242,9 @@ footer {
     max-width: 50px;
     padding: 10px 15px;
 }
+
+
+/* .carousel-inner img {
+    width: 100%;
+    height: 100%;
+} */
