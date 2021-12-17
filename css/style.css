@@ -234,6 +234,8 @@ footer {
     background-image: linear-gradient(to bottom, azure, rgb(60, 62, 65));
 }
 
+
+/*
 .div-iconos {
     text-align: center;
 }
@@ -241,6 +243,10 @@ footer {
 .div-iconos img {
     max-width: 50px;
     padding: 10px 15px;
+} */
+
+#clientes {
+    text-align: center;
 }
 
 
